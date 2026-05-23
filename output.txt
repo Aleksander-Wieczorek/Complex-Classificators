@@ -1,0 +1,58 @@
+Gauss
+
+Pass 5/5... Brak zmian w alphas..
+for C=0.1: Accuracy: 68.41%
+Pass 5/5... Brak zmian w alphas..
+for C=1: Accuracy: 92.94%
+Pass 5/5... Brak zmian w alphas..
+for C=10: Accuracy: 93.11%
+Pass 5/5... Brak zmian w alphas..
+for C=100: Accuracy: 93.11%
+Best C: 10, Best Accuracy: 93.11%
+test size: 2251
+Confusion Matrix:
+TP: 1213 | FP: 118
+FN: 37 | TN: 883
+
+####################
+
+Linear:
+
+
+Iteration 140/150... Passes: 0/5.
+for C=0.1: Accuracy: 93.45%
+Iteration 140/150... Passes: 0/5.
+for C=1: Accuracy: 93.27%
+Iteration 140/150... Passes: 0/5.
+for C=10: Accuracy: 91.78%
+Iteration 140/150... Passes: 0/5.
+for C=100: Accuracy: 85.68%
+Best C: 0.1, Best Accuracy: 93.45%
+test size: 2214
+Confusion Matrix:
+TP: 1150 | FP: 84
+FN: 61 | TN: 919
+
+#################################
+
+search of best sigma:
+
+Pass 5/5... Brak zmian w alphas..
+for sigma=0.1: Accuracy: 67.95%
+...
+Pass 5/5... Brak zmian w alphas..
+for sigma=0.5: Accuracy: 73.89%
+...
+Pass 5/5... Brak zmian w alphas..
+for sigma=1: Accuracy: 93.74%
+...
+Pass 5/5... Brak zmian w alphas..
+for sigma=5: Accuracy: 91.19%
+...
+Pass 5/5... Brak zmian w alphas..
+for sigma=10: Accuracy: 90.93%
+Best sigma: 1, Best Accuracy: 93.74%
+test size: 2237
+Confusion Matrix:
+TP: 1207 | FP: 107
+FN: 33 | TN: 890
